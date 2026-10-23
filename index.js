@@ -6,8 +6,9 @@ import { getDatabase,
          remove } from import { initializeApp } from "https://www.gstatic.com/firebasejs/13.1.0/firebase-database.js";
 
 const firebaseConfig = {
-    databaseURL: "https://leads-tracker-app-978d6-default-rtdb.firebaseio.com/"
+databaseURL: "https://leads-tracker-app-978d6-default-rtdb.firebaseio.com",
 }
+
 
 const app = initializeApp(firebaseConfig)
 const database = getDatabase(app)
